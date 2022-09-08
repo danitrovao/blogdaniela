@@ -61,13 +61,16 @@ header { /*Cabeçalho*/
     border: 1px solid #000000;
     padding: 15px;
     max-width: 1500px;
-    height: 500px;
+    height: 300px;
 
 }
 .item {
     background-color:#ffcdcd;
-    border: 1px solid royalblue;
-    height: 100px;
-    width: 900px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px
     
 }
