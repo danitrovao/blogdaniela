@@ -32,6 +32,7 @@ header { /*Cabeçalho*/
 }
 .menu a:hover{
     color:rgb(28, 184, 223);
+    text-decoration: underline;
 }
 
 .menu { /*Alinhar o Menu*/
@@ -55,6 +56,7 @@ header { /*Cabeçalho*/
 .menu .login-menu:hover { /*Muda o botão login ao passar o mouse em cima */
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+
 }
 .container {
     background-color: rgb(255, 224, 233);
@@ -72,5 +74,6 @@ header { /*Cabeçalho*/
     display: inline-block;
     text-align: center;
     margin-right: 50px
+    
     
 }
