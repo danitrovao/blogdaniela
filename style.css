@@ -61,14 +61,18 @@ header { /*Cabeçalho*/
 .container {
     background-color: rgb(255, 224, 233);
     border: 1px solid #000000;
-    padding: 15px;
-    max-width: 1500px;
+    /*Medidas do container (boxlevel fundo)*/
+    padding-top: 44px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 190px;
+    max-width: 1400px;
     height: 300px;
 
 }
 .item {
     background-color:#ffcdcd;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(197, 97, 135);
     height: 200px;
     width: 200px;
     display: inline-block;
