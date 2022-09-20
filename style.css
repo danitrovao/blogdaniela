@@ -15,8 +15,8 @@
 
 header { /*Cabeçalho*/
     background-color: rgb(255, 255, 255);
-    padding: 20px; 0;
-    border-bottom: 2px solid rgb(200, 200, 200);
+    padding: 25px;
+    border-bottom: 1px solid rgb(200, 200, 200);
 }
 
 .logo {
@@ -25,6 +25,14 @@ header { /*Cabeçalho*/
 
 
 }
+
+div#bola{
+    height: 50px;
+    width: 50px;
+    background-color: #ffcdcd;
+    border-radius: 50%;
+}
+
 .menu a{
     color:rgb(185, 9, 79);
     font-size: 15px;    
@@ -67,11 +75,16 @@ header { /*Cabeçalho*/
     max-width: 1400px;
     height: 300px;
     margin: 10px 30px 10px 30px;
+    /*Sombras*/
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+    /* Bordas arredondadas*/
+    border-radius: 8px; 
 
 }
 .item {
     background-color:#ffcdcd;
     border: 1px solid rgb(197, 97, 135);
+    border-radius: 5px;
     height: 200px;
     width: 200px;
     display: inline-block;
